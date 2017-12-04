@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="java.net.Authenticator"/>
-<fullyQualifiedTypeName name="java.net.Socket"/>
-<fullyQualifiedTypeName name="javax.websocket.OnClose"/>
-<fullyQualifiedTypeName name="javax.websocket.OnMessage"/>
-<fullyQualifiedTypeName name="javax.websocket.Session"/>
-</qualifiedTypeNameHistroy>

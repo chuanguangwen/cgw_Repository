@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Delete resource &apos;JavaServer03-WebSocket&apos;" deleteContents="false" description="Delete resource &apos;JavaServer03-WebSocket&apos;" element1="/JavaServer03-WebSocket" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1512222714173"/>
-</session>
