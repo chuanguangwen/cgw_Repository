@@ -1,0 +1,41 @@
+package com.cgw.socket;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+public class SocketClientDemo {
+	public static void main(String[] args){
+		String host = "localhost";
+		int port = 4700;
+		String sendMsg = "send data form client";
+		conect(host,port,sendMsg.getBytes());
+	}
+	
+	public static void conect(String server , int servPort , byte[] data) {
+		Socket socket = null ;
+		try {
+			socket = new Socket(server , servPort);
+			System.out.println("连接服务器并发送数据。。。");
+			InputStream in = socket.getInputStream();
+			OutputStream out = socket.getOutputStream();
+			out.write(data);
+			//接受数据
+			//目前收到的总字节长度
+			int totalbytesRcvd = 0;
+			//最后一次读取的字节长度
+			int bytesRecvd = 0 ;
+			//将服务器返回消息读到data字节数组中
+			while(totalbytesRcvd < data.length) {
+				bytesRecvd = in.read(data,totalbytesRcvd,data.length - totalbytesRcvd);
+				if(bytesRecvd == -1) {
+					throw new SocketException("连接中断...");
+				}
+				totalbytesRcvd += bytesRecvd ;
+			}
+			System.out.pringln("接受的数据:" + new String(data));
+		}
+	}
+}

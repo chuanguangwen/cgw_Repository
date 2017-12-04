@@ -1,0 +1,16 @@
+127.0.0.1 - - [02/Dec/2017:18:35:32 +0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:18:35:33 +0800] "GET /JavaServer02-SocketTest01/ HTTP/1.1" 200 1130
+127.0.0.1 - - [02/Dec/2017:18:53:09 +0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:18:53:09 +0800] "GET /JavaServer02-SocketTest01/WEB-INF/classes/com/cgw/server/SocketServer.java HTTP/1.1" 404 949
+127.0.0.1 - - [02/Dec/2017:18:53:56 +0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:18:53:56 +0800] "GET /JavaServer02-SocketTest01/ HTTP/1.1" 200 1130
+127.0.0.1 - - [02/Dec/2017:18:57:15 +0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:18:57:15 +0800] "GET /JavaServer02-SocketTest01/WEB-INF/classes/com/cgw/server/SocketServer.java HTTP/1.1" 404 949
+127.0.0.1 - - [02/Dec/2017:22:17:45 +0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:22:17:45 +0800] "GET /JavaServer03-WebSocket/WEB-INF/classes/com/cgw/server/WebSocketServer.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:22:17:59 +0800] "GET /JavaServer03-WebSocket/WEB-INF/classes/com/cgw/server/WebSocketServer.java HTTP/1.1" 404 949
+127.0.0.1 - - [02/Dec/2017:23:38:03 +0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:23:38:04 +0800] "GET /JavaServer03-WebSocket/WEB-INF/classes/com/cgw/server/WebSocketServer.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:23:40:16 +0800] "GET /JavaServer03-WebSocket/WEB-INF/classes/com/cgw/server/WebSocketServer.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:23:40:44 +0800] "GET /JavaServer03-WebSocket/WEB-INF/classes/com/cgw/server/WebSocketServer.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [02/Dec/2017:23:44:07 +0800] "GET /JavaServer03-WebSocket/WEB-INF/classes/com/cgw/server/WebSocketServer.java HTTP/1.1" 404 949

@@ -1,0 +1,9 @@
+127.0.0.1 - - [03/Dec/2017:00:15:37 +0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [03/Dec/2017:00:15:37 +0800] "GET /JavaServer03-WebSocket/ HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [03/Dec/2017:00:16:24 +0800] "GET /JavaServer03-WebSocket//websocket HTTP/1.1" 101 -
+0:0:0:0:0:0:0:1 - - [03/Dec/2017:00:17:19 +0800] "GET /JavaServer03-WebSocket//websocket HTTP/1.1" 101 -
+0:0:0:0:0:0:0:1 - - [03/Dec/2017:00:18:15 +0800] "GET /JavaServer03-WebSocket//websocket HTTP/1.1" 101 -
+127.0.0.1 - - [03/Dec/2017:00:19:27 +0800] "GET / HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [03/Dec/2017:00:19:27 +0800] "GET /JavaServer03-WebSocket/ HTTP/1.1" 200 1130
+0:0:0:0:0:0:0:1 - - [03/Dec/2017:00:19:31 +0800] "GET /JavaServer03-WebSocket//websocket HTTP/1.1" 101 -
+0:0:0:0:0:0:0:1 - - [03/Dec/2017:00:20:58 +0800] "GET /JavaServer03-WebSocket//websocket HTTP/1.1" 101 -

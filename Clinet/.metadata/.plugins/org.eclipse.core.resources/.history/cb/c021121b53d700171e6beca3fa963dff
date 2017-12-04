@@ -1,0 +1,25 @@
+package com.cgw.socket;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
+import java.net.Socket;
+import java.net.SocketException;
+import java.net.UnknownHostException;
+public class SocketClientDemo {
+	public static void main(String[] args){
+		String host = "localhost";
+		int port = 4700;
+		String sendMsg = "send data form client";
+		conect(host,port,sendMsg.getBytes());
+	}
+	
+	public static void conect(String server , int servPort , byte[] data) {
+		Socket socket = null ;
+		try{
+			
+		}catch(IOException e){
+			
+		}
+	}
+}
