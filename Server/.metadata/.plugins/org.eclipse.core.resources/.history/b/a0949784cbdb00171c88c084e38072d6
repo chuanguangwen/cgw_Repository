@@ -16,7 +16,6 @@ public class SocketServer {
 	
 	public static void run()
 	{
-		// 测试
 		// Socket指定端口号为0-65535 ，不能与其他进程端口号冲突，否则启动时称呼会报端口占用的错误
 		int servPort = 4700;
 		// 创建服务端socket
